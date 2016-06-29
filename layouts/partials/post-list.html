@@ -11,6 +11,9 @@
 			<p class="meta">
 				{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
 			</p>
+			<p class="tags">
+				{{ partial "tags.html" .}}
+			</p>
 		</header>
 		<div class="excerpt">
 			{{ if isset .Params "description" | and (ne .Params.description "") }}

@@ -17,6 +17,7 @@
 				<section class="post-content">
 					{{ .Content }}
 
+					<p class="tags">{{ partial "tags.html" .}}</p>
 				<hr>
 
 				{{ template "_internal/disqus.html" . }}

@@ -25,6 +25,7 @@ paginate = 10
 	headerImage = ""
 	copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
 
+	sumomeid = ""
 
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu

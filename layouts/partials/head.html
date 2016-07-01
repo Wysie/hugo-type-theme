@@ -26,4 +26,9 @@
 
 	{{ "<!-- Google Fonts -->" | safeHTML }}
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+
+	{{ if isset .Site.Params "sumomeid" }}
+	<!-- sumome -->
+	<script src="//load.sumome.com/" data-sumo-site-id="{{ .Site.Params.sumomeid }}" async="async"></script>
+	{{ end }}
 </head>
